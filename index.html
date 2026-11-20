@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMEN Learning Hub</title>
+</head>
+<body>
+
+    <!-- Header and welcome message -->
+    <header>
+        <h1>Arc Learning Hub</h1>
+        <p>Welcome to my HTML learning website! Register below and enjoy the audio and video lessons.</p>
+    </header>
+
+    <main>
+
+        <!-- Student registration form -->
+        <section>
+            <h2>Student Registration</h2>
+            <form action="https://formsubmit.co/nrgshanks0@gmail.com" method="post">
+
+                <input type="hidden" name="_autoresponse" value="Thank you for registering at Arc Learning Hub!">
+                <input type="hidden" name="_subject" value="New Student Registration">
+                <input type="hidden" name="_captcha" value="false">
+
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+                <br><br>
+
+                <label for="studentnumber">Student Number:</label>
+                <input type="text" id="studentnumber" name="studentnumber">
+                <br><br>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br><br>
+
+                <label for="course">Choose Your Course:</label>
+                <select id="course" name="course">
+                    <option value="BSIT">BS Information Technology</option>
+                    <option value="BSCS">BS Computer Science</option>
+                    <option value="BSIS">BS Information Systems</option>
+                    <option value="BSEMC">BS Entertainment and Multimedia Computing</option>
+                </select>
+                <br><br>
+
+                <p>Preferred Learning Method:</p>
+                <input type="radio" id="video" name="method" value="video">
+                <label for="video">Video</label>
+
+                <input type="radio" id="reading" name="method" value="reading">
+                <label for="reading">Reading</label>
+                <br><br>
+
+                <p>Topics of Interest:</p>
+                <input type="checkbox" id="html" name="interest" value="HTML">
+                <label for="html">HTML</label>
+
+                <input type="checkbox" id="css" name="interest" value="CSS">
+                <label for="css">CSS</label>
+
+                <input type="checkbox" id="js" name="interest" value="JavaScript">
+                <label for="js">JavaScript</label>
+
+                <input type="checkbox" id="python" name="interest" value="Python">
+                <label for="python">Python</label>
+                <br><br>
+
+                <label for="comments">Comments:</label><br>
+                <textarea id="comments" name="comments" rows="4" cols="35"></textarea>
+                <br><br>
+
+                <button type="submit">Register</button>
+                <button type="reset">Clear</button>
+            </form>
+        </section>
+
+        <hr>
+
+        <!-- Audio lesson -->
+        <section>
+            <h2>Listen to the Lesson</h2>
+            <p>Listen to the audio lesson below.</p>
+            <audio controls>
+                <source src="HTML in 5 minutes.mp3" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+            <br><br>
+            <p>Second audio lesson:</p>
+            <audio controls>
+                <source src="HTML CSS For Beginners.mp3" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+        </section>
+
+        <hr>
+
+        <!-- Video lesson -->
+        <section>
+            <h2>Watch the Lesson</h2>
+            <p>Watch the instructional video below.</p>
+            <video width="600" controls>
+                <source src="Learn HTML in 1 hour 🌎.mp4" type="video/mp4">
+                Your browser does not support video.
+            </video>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 OMEN Learning Hub. Created for an HTML laboratory activity.</p>
+    </footer>
+
+</body>
+</html>
